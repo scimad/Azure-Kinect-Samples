@@ -428,7 +428,7 @@ int main(int argc, char** argv)
         return 1;
     }
 
-    // Retrive calibration
+    // Retrieve calibration
     k4a_calibration_t calibration;
     if (K4A_RESULT_SUCCEEDED !=
         k4a_device_get_calibration(device, config.depth_mode, config.color_resolution, &calibration))
